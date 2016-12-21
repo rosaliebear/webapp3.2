@@ -6,6 +6,9 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style3.css">
+<script src="rate.js"></script>
 
 <style>
   
@@ -15,13 +18,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 </head>
 <body style="background-color: #DFC8B4;">
-<br>
-<hr>
+
 <br><br><br><br><br><br><br><br><br>
+<h1 style="text-align: center;">Berry Sauced Cocktail</h1>
 <center><img src="http://www.magic4walls.com/wp-content/uploads/2016/03/pieces-of-watermelon-and-raspberry-in-cocktail-glass-next-to-watermelon-slices-694x417.jpg" style="text-align: center; height: 500px;width: 650px;"></center>
+<center><h3 style="text-align: center;">Rate this Recipe:</h3><?php require_once "rate.php"; ?></center>
 <center>
-<h1>Ingredients:</h1>
 <ul>
+<h1>Ingredients:</h1>
   <p>12 ounces raspberries (about 2 1/2 cups)</p>
   <p>2 cups dry red wine</p>
   <p>1/2 cup Brandy</p>
@@ -42,24 +46,24 @@ Strain brandy through fine mesh strainer lined with cheesecloth. Combine infused
 
 
 
-<!-- Sidenav (hidden by default) -->
 <nav class="w3-sidenav w3-card-2 w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:15%;height:200%; min-width:300px;background-image: url('images/yumm.png'); background-repeat: no-repeat; color: white;" id="mySidenav">
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-closenav">Close Menu</a>
+  <br>
   <a href="index.php" onclick="w3_close()">Recipe Me</a>
+  <br>
   <a href="login.php" onclick="w3_close()">Login</a>
+  <br>
   <a href="signup.php" onclick="w3_close()">Sign Up</a>
 </nav>
-
 <!-- Top menu -->
 <div class="w3-top">
-  <div class="w3-#C1CFDA w3-xlarge w3-padding-xlarge" style="max-width:1900px;margin:auto;background-color:#DD0B0B;color: black;">
+  <div class="w3-#C1CFDA w3-xlarge w3-padding-xlarge" style="max-width:1900px;height:150px;margin:auto;background-color:#DD0B0B;color: black;">
     <div class="w3-opennav w3-left w3-hover-text-grey" onclick="w3_open()">&#9776;</div>
     <div class="w3-right">
       
-
     </div>
-    <div class="w3-center"><a href="index.php"><img src="logo2.png" width="350" height="200"></a></div>
+    <div class="w3-center"><a href="index.php"><img src="logo2.png" width="250" height="130"></a></div>
   </div>
 </div>
 

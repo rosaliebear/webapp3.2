@@ -48,7 +48,7 @@ Ingredients:
 
 </form>
 <div class="container" style="background-color: #DFC8B4;">
-    <button type="submit" class="cancelbtn" style="margin-left:auto;margin-right:auto;display:block;background-color: #2084f3">Submit</button>
+    <button type="submit" class="cancelbtn" style="margin-left:auto;margin-right:auto;display:block;background-color: #2084f3"><a href="myfavoriterecipes.php">Submit</a></button>
   
   </div>
   <div class="container" style="background-color: #DFC8B4;">

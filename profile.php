@@ -92,7 +92,7 @@ else{
     </h4>
 </div>
 <div style="text-align: center;">
-<p><a href="#">My favourite Recipes</a></p>
+<p><a href="myfavoriterecipes.php">My favorite Recipes</a></p>
 <p><a href="submitarecipe.php">Submit a Recipe</a></p>
 <p><a href="logout.php">Logout</a></p>
 
